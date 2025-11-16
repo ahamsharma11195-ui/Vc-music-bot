@@ -1,0 +1,5 @@
+pyrogram==2.0.106
+tgcrypto==1.2.5
+git+https://github.com/pytgcalls/pytgcalls.git
+yt-dlp==2023.12.30
+youtube-search-python==1.6.2

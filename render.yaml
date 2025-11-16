@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: my-vc-bot
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python main.py
+    envVars:
+      API_ID: "36032857"
+      API_HASH: "1335484542da44312a4e861ad7e41e32"
+      BOT_TOKEN: "8483486360:AAEyV4U9D2nq1GC1QK1unuy-SpQImJMpdLE"
+      SUDO_USERS: "6203351064"
